@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Voorwaarden"
+        android:textColor="#000"
+        android:padding="10dp"/>
+        <!--android:text="@string/gebruikersvoorwaarden"-->
+
+    <!--<Button-->
+        <!--android:id="@+id/VoorwaardenBtn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_margin="3dp"-->
+        <!--android:text="@string/voorwaarden"-->
+        <!--android:textSize="15sp"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:background="@drawable/color_button1"-->
+        <!--android:shadowColor="@android:color/black"/>-->
+
+</ScrollView>

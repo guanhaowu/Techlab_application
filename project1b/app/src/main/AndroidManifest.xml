@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.techlab">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.User_management_user_historyActivity"/>
+        <activity android:name=".view.DrawerMenu" />
+        <activity
+            android:name=".view.Contact"
+            android:label="Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.InfographicActivity"
+            android:label="Statistieken"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.User_Account_SettingsActivity"
+            android:label="Account Instellingen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_management_book_updateActivity"
+            android:label="Boek Updaten"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_management_book_infoActivity"
+            android:label="Boek Informatie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_management_add_bookActivity"
+            android:label="Boek Toevoegen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.User_management_user_InfoActivity"
+            android:label="Gebruiker Info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Users_managementActivity"
+            android:label="Gebruikersbeheer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Student_Geleend_Aangevraagd"
+            android:label="Geleend / Aangevraagd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_management_product_UpdateActivity"
+            android:label="Product Updaten"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_management_product_infoActivity"
+            android:label="Product Informatie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_management_add_productActivity"
+            android:label="Product Toevoegen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_managementActivity"
+            android:label="Productbeheer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.SignUpActivity"
+            android:label="Registratie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_administration_Options"
+            android:label="Aangevraagde Productpagina"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_administration"
+            android:label="Product Administratie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_InventoryActivity"
+            android:label="Inventaris"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_ItemDescription"
+            android:label="Product Beschrijving"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.Product_Voorwaarden"
+            android:label="Product Voorwaarden"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

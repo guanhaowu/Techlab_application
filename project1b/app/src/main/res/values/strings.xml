@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Techlab</string>
+    <string name="RequestBtn">Aanvragen</string>
+    <string name="omschrijving">Omschrijving:</string>
+    <string name="productUpdate">Product UpDate</string>
+    <string name="schoolEmail">School Email:</string>
+    <string name="wachtwoord">Wachtwoord:</string>
+    <string name="Herhaalwachtwoord">Herhaal Wachtwoord:</string>
+    <string name="inloggen">Inloggen</string>
+    <string name="registreren">Registreren</string>
+    <string name="productToevoegen">product toevoegen</string>
+    <string name="productVerwijderen">Product verwijderen</string>
+    <string name="voornaam">Voornaam:</string>
+    <string name="achternaam">Achternaam:</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <!--Product Updaten-->
+    <string name="productFabrikant">Fabrikant:</string>
+    <string name="aantalProduct">Aantal:</string>
+    <string name="productCategorie">Categorie:</string>
+    <string name="aantalGebroken">Gebroken:</string>
+
+    <!--Product Informatie-->
+    <string name="naam">Naam:</string>
+    <string name="id">ID:</string>
+    <string name="fabrikant">Fabrikant:</string>
+    <string name="voorraad">Voorraad:</string>
+    <string name="gebrokenAantal">Gebroken:</string>
+    <string name="categorie">Categorie:</string>
+
+    <!--Boek Informatie-->
+
+    //product status type
+    <string name="productStatusPending">Pending</string>
+    <string name="productStatusOnLoan">Geleend</string>
+    <string name="productStatusReturned">Teruggebracht</string>
+    <string name="productStatusTeLaat">Te Laat</string>
+    <string name="contact">Contact</string>
+    <string name="infographic">Statistieken</string>
+    <string name="logout">Uitloggen</string>
+    <string name="account_settings">Account instellingen</string>
+    <string name="user_management">Gebruikersbeheer</string>
+    <string name="product_management">Productbeheer</string>
+    <string name="product_administration">Product Administratie</string>
+    <string name="items_requested_and_borrowed">Geleend / aangevraagd</string>
+    <string name="Inventory">Inventaris</string>
+
+    // Contact
+    <string name="address">Wijnhaven 105</string>
+    <string name="postcode">3011 WN Rotterdam</string>
+    <string name="country">Nederland</string>
+    <string name="floor">WD.04.022</string>
+    <string name="ContactEmail">techlab@csarotterdam.nl</string>
+    <string name="TOS">Voorwaarden</string>
+    <string name="Home">Home</string>
+</resources>

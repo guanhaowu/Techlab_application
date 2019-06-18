@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".view.InfographicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/recyclerview_background">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Meest Populaire Producten"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/mostPopularProductChart"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:background="@drawable/recyclerview_background">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meest Actieve Gebruikers"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/mostPopularUserChart"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

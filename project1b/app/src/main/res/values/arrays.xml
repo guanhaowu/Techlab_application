@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BorrowCategory">
+        <item>Alle aangevraagde producten</item>
+        <item>Alle Uitgeleende producten</item>
+        <item>Alle teruggebrachte producten</item>
+        <item>Alle Te Late producten</item>
+    </string-array>
+
+    <string-array name="BorrowCategoryStudent">
+        <item>Alle aangevraagde en geleende producten</item>
+        <item>Alle teruggebrachte producten</item>
+    </string-array>
+
+    <string-array name="BorrowCategoryUserManagement">
+        <item>Alle producten in bruikleen</item>
+        <item>activiteiten geschiedenis</item>
+    </string-array>
+    <!--Drop down of category Button-->
+    <string-array name="ProductCategory">
+        <item>Alle Producten</item>
+        <item>Virtual Reality</item>
+        <item>Gameconsole</item>
+        <item>MicroComputer</item>
+        <item>Drone</item>
+        <item>Radio Controlled</item>
+        <item>Game</item>
+        <item>Smart Technology</item>
+        <item>Kabels</item>
+        <item>Internet</item>
+        <item>Computer</item>
+        <item>Book</item>
+    </string-array>
+    <!--Drop down list for Users management page -->
+    <string-array name="UsersCategory">
+        <item>Alle gebruikers</item>
+        <item>Alle geblokkeerde gebruikers</item>
+    </string-array>
+</resources>

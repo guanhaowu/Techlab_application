@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.User_management_user_InfoActivity"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/userManagementUserInfoUserName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:text="@string/naam"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/userManagementUserInfoUserNameDisplay"
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/userManagementUserInfoUserLastName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/achternaam"
+                android:textStyle="bold"
+                android:layout_weight="0.40"/>
+            <TextView
+                android:id="@+id/userManagementUserInfoUserLastNameDisplay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/userManagementUserInfoUserEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolEmail"
+                android:textStyle="bold"
+                android:layout_weight="0.40"/>
+            <TextView
+                android:id="@+id/userManagementUserInfoUserEmailDisplay"
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/userManagementUserInfoUserStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Gebruiker status: "
+                android:textStyle="bold"
+                android:layout_weight="0.40"/>
+            <TextView
+                android:id="@+id/userManagementUserInfoUserStatusDisplay"
+                android:layout_width="0dp"
+                android:layout_weight="0.65"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/BlockStatusField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dp"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/BlockStatusTextLabel"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.42"
+                    android:layout_height="wrap_content"
+                    android:text="Block status: "
+                    android:textStyle="bold"
+                    android:textColor="@color/White"/>
+                <TextView
+                    android:id="@+id/BlockStatusText"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.65"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textColor="@color/White"/>
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/userManagementUserInfoProductOnLoanAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Aantal in bruikleen: "
+                android:textStyle="bold"
+                android:layout_weight="0.40"/>
+            <TextView
+                android:id="@+id/userManagementUserInfoProductOnLoanAmountDisplay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/product_borrowed_by_this_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_button1"
+        android:onClick="productBorrowedByThisUser"
+        android:text="gebruikersactiviteiten"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/userStatusUpDateBeheerderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_button1"
+        android:onClick="updateUserStatusToBeheerder"
+        android:text="Update status beheerder"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/userStatusUpDateStudentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_button1"
+        android:onClick="updateUserStatusToStudent"
+        android:text="Update status Student"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/UnBlockUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_button1"
+        android:onClick="UnBlockUser"
+        android:text="Gebruiker deblokkeren"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/BlockUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_button1"
+        android:onClick="BlockUser"
+        android:text="Gebruiker blokkeren"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/userDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/color_button1"
+        android:onClick="deleteUser"
+        android:text="Gebruiker verwijderen "
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+<!--<TextView-->
+    <!--android:id="@+id/AlertDialogText"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:padding="2dp"-->
+    <!--android:layout_marginBottom="0dp"-->
+    <!--android:layout_marginTop="0dp"-->
+    <!--android:textColor="@color/black" />-->
+
+    <Button
+        android:id="@+id/AlertDialogButtonVoorwaarden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lees hier de Algemene Voorwaarden"
+        android:background="@color/lightGray"
+        android:textColor="@color/colorAccent" />
+    <!--android:layout_below="@id/AlertDialogText"-->
+</RelativeLayout>
+
